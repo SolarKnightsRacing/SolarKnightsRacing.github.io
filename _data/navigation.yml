@@ -13,7 +13,7 @@ main:
     
   - title: "Partners"
     description: "Our partners"
-    url: /Partners/
+    url: /partners/
     
   # TODO: put all links below into a dropdown
   - title: "Blog"
@@ -23,7 +23,3 @@ main:
   - title: "Media"
     description: "View all media"
     url: /media/
-    
-  - title: "Join us!"
-    description: "Join us"
-    url: /team/
