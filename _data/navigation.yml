@@ -1,9 +1,29 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
+    description: "About the team"
     url: /about/
+    
+  - title: "Events"
+    description: "Upcoming events"
+    url: /events/
+    
+  - title: "Vehicles"
+    description: "Our vehicles"
+    url: /vehicles/
+    
+  - title: "Partners"
+    description: "Our partners"
+    url: /Partners/
+    
+  # TODO: put all links below into a dropdown
+  - title: "Blog"
+    description: "Blog posts about the club"
+    url: /blog/
+    
+  - title: "Media"
+    description: "View all media"
+    url: /media/
+    
+  - title: "Join us!"
+    description: "Join us"
+    url: /team/
