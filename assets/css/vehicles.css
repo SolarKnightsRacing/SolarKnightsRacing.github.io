@@ -1,0 +1,74 @@
+.vehicles-collection {
+  margin: 2rem 0;
+}
+
+.vehicle-item {
+  display: flex;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+  gap: 2rem;
+  align-items: center;
+}
+
+.vehicle-name {
+  margin-top: 0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.vehicle-years {
+  margin-bottom: 1rem;
+}
+
+.years-active {
+  display: inline-block;
+  background-color: #f8f9fa;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.vehicle-description {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.vehicle-content {
+  flex: 1;
+}
+
+.vehicle-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.vehicle-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Alternating layout */
+.image-right {
+  flex-direction: row;
+}
+
+.image-left {
+  flex-direction: row-reverse;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .vehicle-item {
+    flex-direction: column;
+  }
+  
+  .vehicle-image {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
