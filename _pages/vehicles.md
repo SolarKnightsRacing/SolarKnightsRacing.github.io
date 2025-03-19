@@ -4,7 +4,8 @@ title: "Vehicles"
 permalink: /vehicles/
 ---
 
-{% assign vehicles = site.vehicles | sort: 'acquisition_year' %}
+---
+{% assign vehicles = site.vehicles | sort: 'from' %}
 {% for vehicle in vehicles %}
   <div class="feature__wrapper">
     <div class="feature__item{% cycle '--left', '--right' %}">
@@ -18,7 +19,7 @@ permalink: /vehicles/
         </div>
         <div class="archive__item-body">
           <h2 class="archive__item-title">{{ vehicle.title }}</h2>
-          <h3 class="archive__item-subtitle">{{ vehicle.year_range }}</h3>
+          <h3 class="archive__item-subtitle">{{ vehicle.from }} - {{ vehicle.until }}</h3>
           <div class="archive__item-excerpt">
             {{ vehicle.content }}
           </div>
