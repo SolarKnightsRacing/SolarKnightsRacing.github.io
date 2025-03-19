@@ -35,11 +35,9 @@ permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 extra_css:
-  - /assets/css/vehicles.css
 
 include:
   - _pages
-  - _events
   - _vehicles
   - _partners
   - _members
@@ -100,4 +98,6 @@ defaults:
 
 collections:
   vehicles:
+    output: true
+  members:
     output: true
