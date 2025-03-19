@@ -3,10 +3,8 @@ title: "Vehicle Collection"
 layout: collection
 permalink: /vehicles/
 collection: vehicles
-entries_layout: grid
 sort_by: from
 sort_order: forward
-classes: wide
 ---
 
 <div class="vehicles-expanded-collection">
