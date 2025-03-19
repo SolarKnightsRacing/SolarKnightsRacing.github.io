@@ -1,10 +1,10 @@
 ---
 title: Solaris
+from: 2025
+until: Now
 excerpt: "Description of the vehicle that appears in the collection list."
 header:
   teaser: /assets/images/Knight-Icon.jpg
-  image: /assets/images/Banner.jpg
-  caption: "Photo credit: [**Source**](https://source.com)"
 sidebar:
   - title: "Years Active"
     text: "2010 - 2018"
