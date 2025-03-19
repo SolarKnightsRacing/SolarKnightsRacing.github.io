@@ -18,8 +18,7 @@ permalink: /vehicles/
           {% endif %}
         </div>
         <div class="archive__item-body">
-          <h2 class="archive__item-title">{{ vehicle.title }}</h2>
-          <h3 class="archive__item-subtitle">{{ vehicle.from }} - {{ vehicle.until }}</h3>
+          <h2 class="archive__item-title no-toc">{{ vehicle.title }}</h2> <small>{{ vehicle.from }} - {{ vehicle.until }}</small>
           <div class="archive__item-excerpt">
             {{ vehicle.content }}
           </div>
