@@ -6,6 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
+  alt: "Collection of sponsors"
   actions:
     - label: "Download sponsorship packet"
       #url: "https://github.com/"
