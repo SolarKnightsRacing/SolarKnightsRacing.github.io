@@ -8,22 +8,10 @@ classes: wide
 {% assign sorted_vehicles = site.vehicles | sort: "from" %}
   
 {% for vehicle in sorted_vehicles %}
-<div class="vehicle-profile">
   <h1>{{ vehicle.name }}</h1>
   
   {% if vehicle.from %}
-  <div class="vehicle-meta">
-	<p> {{ vehicle.from }} - <p/>
-	{% if vehicle.until %}
-		<p> {{ vehicle.until }} </p>
-	{% else %}
-		<p> Now </p>
-	{% endif %}
-  </div>
+	<p> {{ vehicle.from }} - <p/> {% if vehicle.until %} <p> {{ vehicle.until }} </p> {% else %} <p> Now </p> {% endif %}
   {% endif %}
-  
-  <div class="vehicle-content">
-    {{ vehicle.exerpt }}
-  </div>
-</div>
+  {{ vehicle.exerpt }}
 {% endfor %}
