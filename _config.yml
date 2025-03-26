@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solar Knights Racing
+title: Solar Knights
 title_separator: "|"
 logo: "/assets/images/Knight-Icon.jpg"
 email: SolarKnightsRacing@gmail.com
@@ -71,10 +71,10 @@ footer:
    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/SolarKnightsRacing/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/skr_ucf/"
 
 defaults:
   # _posts

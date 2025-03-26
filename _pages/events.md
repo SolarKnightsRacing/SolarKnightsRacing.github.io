@@ -16,10 +16,10 @@ permalink: /events/
           {% else %}
             <img src="https://placehold.co/256?text=256x256+{{ event.title | url_encode }}" alt="{{ event.title }}">
           {% endif %}
-          <small> {{ event.event_date }} <small/>
+          <small> {{ event.event_date }} </small>
         </div>
         <div class="archive__item-body">
-          <h2 class="archive__item-title no-toc">{{ event.title }}</h2> <p> {{ event.location }} <p/>
+          <h2 class="archive__item-title no-toc">{{ event.title }}</h2> <p> {{ event.location }} </p>
           <div class="archive__item-excerpt">
             {{ event.content }}
           </div>
