@@ -8,8 +8,8 @@ permalink: /events/
 {% assign events = site.events | sort: 'date' %}
 {% for event in events %}
   <div class="feature__wrapper">
-    <div class="feature__item">  
-      <div class="archive__item--left">
+    <div class="feature__item--left">  
+      <div class="archive__item">
         <div class="archive__item-teaser">
           {% if event.image %}
             <img src="{{ event.image | relative_url }}" alt="{{ event.title }}">
