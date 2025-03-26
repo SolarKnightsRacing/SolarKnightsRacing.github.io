@@ -18,7 +18,7 @@ permalink: /events/
           {% endif %}
         </div>
         <div class="archive__item-body">
-          <small> {{ event.eventdate }} </small>
+          <small> { event.eventdate } </small>
           <h2 class="archive__item-title no-toc">{{ event.title }}</h2> <p> {{ event.location }} </p>
           <div class="archive__item-excerpt">
             {{ event.content }}
