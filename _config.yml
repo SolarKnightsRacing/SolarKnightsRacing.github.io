@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solar Knights
+title: Solar Knights Racing
 title_separator: "|"
 logo: "/assets/images/Knight-Icon.jpg"
 email: SolarKnightsRacing@gmail.com
