@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 permalink: /
 title: "Home"
 excerpt: "\n\nEmpowering UCF students with experience & leadership!"
