@@ -9,5 +9,5 @@ excerpt: "\n\nEmpowering UCF students with experience & leadership!"
 #  overlay_image: /assets/images/Banner.jpg
 #  caption: "Photo credit: "
 ---
-<img href="/assests/images/Banner.jpg">
+![](/assets/images/Banner.jpg)
 Club slogan
