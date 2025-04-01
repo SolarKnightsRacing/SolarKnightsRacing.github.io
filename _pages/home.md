@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: "  "
+title: "test"
 exerpt: " \n \n" 
 header:
   overlay_color: "#000"
